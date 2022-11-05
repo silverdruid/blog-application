@@ -48,25 +48,6 @@ app.post('/upload', (req, res) => {
     })
 })
 
-// import { initializeApp } from 'firebase/app';
-
-// // TODO: Replace the following with your app's Firebase project configuration
-// const firebaseConfig = {
-//         apiKey: "AIzaSyAcA4A-A82SgiDP3kfhCeQnJ7yhyBSuE6s",
-//         authDomain: "blog-application-570a3.firebaseapp.com",
-//         projectId: "blog-application-570a3",
-//         storageBucket: "blog-application-570a3.appspot.com",
-//         messagingSenderId: "463335489937",
-//         appId: "1:463335489937:web:34567a31eeda7d58589a30",
-//         measurementId: "G-FZ2KX9KKJG"
-//     };
-
-//     // Initialize Firebase
-//     const appf = initializeApp(firebaseConfig);
-//     const analytics = getAnalytics(appf);
-
-
-
 app.listen(3000, () => {
     console.log('sever up!');
 })

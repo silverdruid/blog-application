@@ -1,0 +1,1 @@
+This is a blog application made with node js

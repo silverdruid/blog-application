@@ -1,1 +1,1 @@
-This is a blog application made with node js
+This is a blog application made with node js, firebase and express
